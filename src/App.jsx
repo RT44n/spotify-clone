@@ -1,4 +1,5 @@
 import "./App.css";
+import MusicPlayer from "./components/MusicPlayer";
 import SideBar from "./components/Sidebar";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <div className="h-[90%] flex">
           <SideBar></SideBar>
         </div>
+        <MusicPlayer> </MusicPlayer>
       </div>
     </>
   );
